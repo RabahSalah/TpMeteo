@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	 <meta charset="UTF-8">
+	 <title>Météo de trois villes </title>
+	 <link rel="stylesheet" href="meteo.css">
+	 <script type="text/javascript" src="meteo.js"></script>
+</head>
+
+
+<body >
+	
+	<h1>TP Météo HTML</h1>
+
+	
+	<div id="menu">
+		<label for="ville">Choisissez une ville: </label>
+
+		
+		<select onchange = showCity() id="container" >
+    		<option value="">--Please choose an option--</option>
+    		<option value="Alger">Alger</option>
+    		<option value="Paris">Paris</option>
+    		<option value="New York">New York</option>
+		</select>		
+	</div>
+    
+	
+	<div id="selected">
+		<p>La ville selectionnée est :</p><p id="ville"></p>
+	</div>
+
+	
+	<div class="container">
+
+		<div class ="city  " id="New York" >
+			<h2> New York </h2>
+			<p>-1°, Neige </p>
+			<img src="noun_Snow_1705982.png" alt ="image qui represente un temps de neige" width= "50" >
+		</div>
+
+		<div class ="city " id="Alger">
+			<h2 > Alger </h2>     
+			<p >10°, pluvieux </p>
+			<img src="noun_rainy_2182468.png" alt ="image qui represente un temps pluvieux" width= "50" >
+		</div>
+
+
+		<div class ="city " id="Paris">
+			<h2> Paris </h2>
+			<p>24°, ensolleillé </p>
+			<img src="noun_sunny_670191.png" alt ="image qui represente un temps ensolleillé" width= "50" >
+		</div>
+
+
+		
+
+	</div>
+
+
+
+	<footer>
+   		<p>  
+			SALAH Rabah <br>
+			SELLAM Smail <br> 
+			Source des icônes  
+			<a href="https://thenounproject.com/search/collection/?q=weather">Nook Fulloption</a>
+   		</p>   
+	</footer>  
+</body>
+</html>
