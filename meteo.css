@@ -1,13 +1,9 @@
 
-.body {
-    padding: 0;
-    margin: 0;
-}
 
 h1 {
     background-color :rgb(2, 0, 0);   
     color: rgb(252, 247, 247);
-        padding: 15px;
+    padding: 15px;
     text-align: center;
     margin: 5px;
 } 
