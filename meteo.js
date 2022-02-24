@@ -1,7 +1,9 @@
 
 function showCity() {
 
-	
+	var nom = "rabah";
+    var adresse = "France";
+    alert(name +" travail en "+address);
 	
 	let nomVilleSelectionnee = document.getElementById("container").value;
 	let cities = document.getElementsByClassName("city");
